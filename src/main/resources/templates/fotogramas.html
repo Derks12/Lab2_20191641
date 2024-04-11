@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
 </head>
 <body>
+
+<p>Filas: <span th:text="${patito.numFilas}"/></p>
+<p th:text="|Columnas: ${patito.numColumnas}|"></p>
+<p th:text="'Posiciones Iniciales: ' + ${patito.posIniciales}"></p>
+<p>Número de fotos tomadas: <span th:text="${patito.cantFotos}"/></p>
 
 </body>
 </html>

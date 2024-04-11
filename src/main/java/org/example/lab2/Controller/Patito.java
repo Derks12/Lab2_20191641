@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Patito {
     private String numFilas;
     private String numColumnas;
-    private ArrayList<String> posIniciales;
+    private ArrayList<String> posIniciales = new ArrayList<>();
     private int cantFotos;
 
     public String getNumFilas() {
