@@ -3,32 +3,33 @@ package org.example.lab2.Controller;
 import java.util.ArrayList;
 
 public class Patito {
-    private String numFilas;
-    private String numColumnas;
-    private ArrayList<String> posIniciales = new ArrayList<>();
+    private int numFilas;
+    private int numColumnas;
+    private String posIniciales;
     private int cantFotos;
 
-    public String getNumFilas() {
+
+    public int getNumFilas() {
         return numFilas;
     }
 
-    public void setNumFilas(String numFilas) {
+    public void setNumFilas(int numFilas) {
         this.numFilas = numFilas;
     }
 
-    public String getNumColumnas() {
+    public int getNumColumnas() {
         return numColumnas;
     }
 
-    public void setNumColumnas(String numColumnas) {
+    public void setNumColumnas(int numColumnas) {
         this.numColumnas = numColumnas;
     }
 
-    public ArrayList<String> getPosIniciales() {
+    public String getPosIniciales() {
         return posIniciales;
     }
 
-    public void setPosIniciales(ArrayList<String> posIniciales) {
+    public void setPosIniciales(String posIniciales) {
         this.posIniciales = posIniciales;
     }
 
